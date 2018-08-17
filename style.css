@@ -1,0 +1,46 @@
+body,html
+{
+	padding:0px;
+	margin:0px;
+	
+	background-image: url("https://i.pinimg.com/originals/57/5f/35/575f35f7c756985c6ef2823b32d6470d.jpg");/*,url("https://images.alphacoders.com/247/247531.jpg");*/
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+   
+
+
+
+}
+#img{
+   
+    width:50px;height:50px; position:relative;margin:5px;
+   position: absolute;
+    -webkit-animation: mymove 6s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation: mymove 6s;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes mymove {
+    0% {top: 0px;}
+    100% {top: 400px; visibility:hidden;}
+}
+
+@keyframes mymove {
+    0% {top: 0px;}
+    100% {top: 400px ;visibility:hidden;}
+}
+ #carouse{
+   position:absolute;
+   top:0;
+   right:0;
+   margin:2px;
+  }
+  #music{
+	 position:absolute;
+   bottom:0;
+   right:0;
+   margin:2px; 
+  }
