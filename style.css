@@ -5,17 +5,16 @@ body,html
 {
 	padding:0px;
 	margin:0px;
-	
-	background-image: url("https://i.pinimg.com/originals/57/5f/35/575f35f7c756985c6ef2823b32d6470d.jpg");/*,url("https://images.alphacoders.com/247/247531.jpg");*/
+background-image: url("https://i.pinimg.com/originals/57/5f/35/575f35f7c756985c6ef2823b32d6470d.jpg");/*,url("https://images.alphacoders.com/247/247531.jpg");*/
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
    
-min-height: 100vh;
+   min-height: 100vh;
  
   color: #fff;
-  display: flex;
+
   justify-content: center;
   align-items: center;
 
