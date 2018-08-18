@@ -15,7 +15,7 @@ function getRandomPosition(element) {
 	for(let i=0;i<50;i++)
   {var img = document.createElement('img');
 	
-	img.setAttribute("src", "https://www.emoji.co.uk/files/twitter-emojis/smileys-people-twitter/10497-smiling-face-with-heart-shaped-eyes.png");
+	img.setAttribute("src", "http://www.emoji.co.uk/files/twitter-emojis/smileys-people-twitter/10497-smiling-face-with-heart-shaped-eyes.png");
    	img.setAttribute("id", "img");
 	document.body.appendChild(img);
 	var xy = getRandomPosition(img);
@@ -46,7 +46,7 @@ function getRandomPosition(element) {
 
 }
 function splitWords() {
-  let quote = document.querySelector("q");
+  let quote = document.querySelector("p");
   quote.innerText.replace(/(<([^>]+)>)/ig,"");
   quotewords = quote.innerText.split(" "),
   wordCount = quotewords.length;
@@ -57,7 +57,7 @@ function splitWords() {
       quote.innerHTML += " ";
     }
   }
-  quotewords = document.querySelectorAll("blockquote > q > span");
+  quotewords = document.querySelectorAll("blockquote > p > span");
   fadeWords(quotewords);
 }
 
