@@ -46,7 +46,7 @@ function getRandomPosition(element) {
 
 }
 function splitWords() {
-  let quote = document.querySelector("blockquote q");
+  let quote = document.querySelector("blockquote > q");
   quote.innerText.replace(/(<([^>]+)>)/ig,"");
   quotewords = quote.innerText.split(" "),
   wordCount = quotewords.length;
@@ -57,7 +57,7 @@ function splitWords() {
       quote.innerHTML += " ";
     }
   }
-  quotewords = document.querySelectorAll("blockquote q span");
+  quotewords = document.querySelectorAll("blockquote > q > span");
   fadeWords(quotewords);
 }
 
