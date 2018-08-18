@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 body,html
 {
 	padding:0px;
@@ -9,12 +7,8 @@ background-image: url("https://i.pinimg.com/originals/57/5f/35/575f35f7c756985c6
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-   
+  position: relative;   
    min-height: 100vh;
- 
-  color: #fff;
-
   justify-content: center;
   align-items: center;
 
