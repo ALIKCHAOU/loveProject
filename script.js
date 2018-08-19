@@ -46,8 +46,8 @@ function getRandomPosition(element) {
 
 }
 function splitWords() {
-  let quote = document.querySelector("p");
-  quote.innerText.replace(/(<([^>]+)>)/ig,"");
+  let quote = document.querySelector("p").innerText.replace(/(<([^>]+)>)/ig,"");
+ 
   quotewords = quote.innerText.split(" "),
   wordCount = quotewords.length;
   quote.innerHTML = "";
